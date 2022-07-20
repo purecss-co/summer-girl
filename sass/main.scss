@@ -713,7 +713,7 @@ body {
       top: -2.1vmin;
       left: -4vmin;
       transform: rotate(-6deg);
-      border-radius: 0 0 190% 0;
+      border-radius: 0 0 100% 0;
     }
   }
 
@@ -1232,7 +1232,7 @@ body {
     top: 19.8vmin;
     left: 28.7vmin;
     transform: rotate(1deg);
-    border-radius: 0 40% 0% 0;
+    border-radius: 0 40% 0 0;
 
     &::before {
       width: 3vmin;
@@ -1241,7 +1241,7 @@ body {
       top: -0.6vmin;
       left: -0.7vmin;
       transform: rotate(30deg);
-      border-radius: 20% 0 0 0;
+      border-radius: 20% 0 0;
     }
 
     &::after {
@@ -1314,7 +1314,7 @@ body {
     left: 25vmin;
     border-radius: 50%;
 
-    &:before {
+    &::before {
       width: 3vmin;
       height: 0.8vmin;
       background: $mouth-color;
