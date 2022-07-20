@@ -41,9 +41,9 @@ body {
 .circle {
   width: 89.7vmin;
   height: 89.7vmin;
+  background: $circle-color;
   top: 3.2vmin;
   left: 10.9vmin;
-  background: $circle-color;
   border-radius: 50%;
 }
 
